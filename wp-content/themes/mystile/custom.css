@@ -21,6 +21,11 @@ DESKTOP STYLES
 Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
 
 @media only screen and (min-width: 768px) {
+
+  .homepage-banner {
+    max-width:75.998em;
+  }
+
 	/* Desktop styles go here */
   .homepage-banner .description {
     top: 20%;
