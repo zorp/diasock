@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-09-02 20:00:42+0000\n"
+"PO-Revision-Date: 2014-09-15 12:06:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1864,7 +1864,7 @@ msgstr "Den anmodede bruger findes ikke."
 
 #: wp-includes/ms-functions.php:506
 msgid "Please enter a valid email address."
-msgstr "Indtast venligst en gyldig e-mail-adresse."
+msgstr "Indtast venligst en gyldig e-mailadresse."
 
 #: wp-includes/user.php:2129
 msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
@@ -2675,7 +2675,7 @@ msgstr "<strong>FEJL</strong>: Husk at skrive en kommentar."
 
 #: wp-comments-post.php:124
 msgid "<strong>ERROR</strong>: please enter a valid email address."
-msgstr "<strong>FEJL</strong>: du skal venligst indtaste en gyldig e-mail-adresse."
+msgstr "<strong>FEJL</strong>: du skal venligst indtaste en gyldig e-mailadresse."
 
 #: wp-comments-post.php:122
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
@@ -2904,7 +2904,7 @@ msgctxt "add new from admin bar"
 msgid "User"
 msgstr "Bruger"
 
-#: wp-includes/pluggable.php:1067
+#: wp-includes/pluggable.php:1073
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Du skal angive en nonce handling, der skal verificeres gennem den første parameter."
 
@@ -3065,7 +3065,7 @@ msgstr "(Denne meddelelse blev tilføjet i version %s)."
 msgid "Sorry, you cannot publish this post."
 msgstr "Beklager, du kan ikke udgive dette indlæg."
 
-#: wp-includes/pluggable.php:1412
+#: wp-includes/pluggable.php:1418
 msgid "Permalink: %s"
 msgstr "Permalink: %s"
 
@@ -3101,7 +3101,7 @@ msgstr "Lydklip"
 msgid "Invalid post format"
 msgstr "Ugyldigt indlægsformat"
 
-#: wp-includes/pluggable.php:1404 wp-includes/pluggable.php:1533
+#: wp-includes/pluggable.php:1410 wp-includes/pluggable.php:1539
 msgid "Whois  : http://whois.arin.net/rest/ip/%s"
 msgstr "Whois: http://whois.arin.net/rest/ip/%s"
 
@@ -3190,7 +3190,7 @@ msgstr "Denne fil behøver ikke længere at blive inkluderet."
 
 #: wp-login.php:522
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
-msgstr "Indtast venligst dit brugernavn eller din e-mail-adresse. Du vil modtage et link til at oprette en ny adgangskode via e-mail."
+msgstr "Indtast venligst dit brugernavn eller din e-mailadresse. Du vil modtage et link til at oprette en ny adgangskode via e-mail."
 
 #: wp-includes/default-widgets.php:353 wp-includes/default-widgets.php:633
 msgid "Display as dropdown"
@@ -3332,7 +3332,7 @@ msgstr "[%1$s] Aktiver %2$s"
 msgid "Your server is running PHP version %1$s but WordPress %2$s requires at least %3$s."
 msgstr "Din server kører PHP version %1$s, men WordPress %2$s kræver minimum version %3$s."
 
-#: wp-includes/pluggable.php:1514
+#: wp-includes/pluggable.php:1520
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Et nyt trackback til indlægget \"%s\" venter på din godkendelse"
 
@@ -3374,23 +3374,23 @@ msgstr "alle"
 msgid "Custom Menu"
 msgstr "Brugerdefineret menu"
 
-#: wp-includes/pluggable.php:1389
+#: wp-includes/pluggable.php:1395
 msgid "New pingback on your post \"%s\""
 msgstr "Nyt Pingback til dit indlæg \"%s\""
 
-#: wp-includes/pluggable.php:1521
+#: wp-includes/pluggable.php:1527
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "Et nyt pingback til indlægget \"%s\" venter på din godkendelse"
 
-#: wp-includes/pluggable.php:1528
+#: wp-includes/pluggable.php:1534
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "En ny kommentar til indlægget \"%s\" venter på din godkendelse"
 
-#: wp-includes/pluggable.php:1379
+#: wp-includes/pluggable.php:1385
 msgid "New trackback on your post \"%s\""
 msgstr "Nyt trackback til dit indlæg \"%s\""
 
-#: wp-includes/pluggable.php:1399
+#: wp-includes/pluggable.php:1405
 msgid "New comment on your post \"%s\""
 msgstr "Ny kommentar til dit indlæg \"%s\""
 
@@ -3828,7 +3828,7 @@ msgstr "Beklager, men det websted er optaget!"
 msgid "That site is currently reserved but may be available in a couple days."
 msgstr "Dette websted (navn) er optaget for øjeblikket, men bliver måske tilgængeligt i løbet af et par dage."
 
-#: wp-includes/pluggable.php:1639
+#: wp-includes/pluggable.php:1645
 msgid "New user registration on your site %s:"
 msgstr "Ny brugerregistrering på dit websted %s:"
 
@@ -3901,7 +3901,7 @@ msgstr ","
 
 #: wp-includes/comment-template.php:2108
 msgid "Your email address will not be published."
-msgstr "Din e-mail-adresse vil ikke blive offentliggjort."
+msgstr "Din e-mailadresse vil ikke blive offentliggjort."
 
 #: wp-includes/class-http.php:191 wp-includes/class-wp-xmlrpc-server.php:5749
 msgid "A valid URL was not provided."
@@ -4209,7 +4209,7 @@ msgstr "Kommentarskriveren skal udfylde navn og e-mail"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3278
 msgid "A valid email address is required"
-msgstr "En gyldig e-mail-adresse er p&#229;kr&#230;vet"
+msgstr "En gyldig e-mailadresse er p&#229;kr&#230;vet"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3351
 msgid "You are not allowed access to details about comments."
@@ -5251,7 +5251,7 @@ msgstr "Den bruger eksisterer ikke."
 
 #: wp-includes/ms-functions.php:493
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
-msgstr "Du kan ikke bruge denne e-mail-adresse til tilmelding. Vi har problemer med, at den e-mail-udbyder blokerer nogle af vores e-mails. Brug venligst en anden udbyder."
+msgstr "Du kan ikke bruge denne e-mailadresse til tilmelding. Vi har problemer med, at den e-mailudbyder blokerer nogle af vores e-mails. Brug venligst en anden udbyder."
 
 #: wp-includes/ms-functions.php:503
 msgid "Sorry, usernames must have letters too!"
@@ -5259,7 +5259,7 @@ msgstr "OBS! Et brugernavn skal indeholde nogle bogstaver også!"
 
 #: wp-includes/ms-functions.php:512
 msgid "Sorry, that email address is not allowed!"
-msgstr "Beklager, den e-mail-adresse er ikke tilladt!"
+msgstr "Beklager, den e-mailadresse er ikke tilladt!"
 
 #: wp-includes/ms-functions.php:517 wp-includes/user.php:1677
 msgid "Sorry, that username already exists!"
@@ -5267,7 +5267,7 @@ msgstr "Beklager, men der er allerede en, der har taget det brugernavn!"
 
 #: wp-includes/ms-functions.php:521 wp-includes/user.php:1720
 msgid "Sorry, that email address is already used!"
-msgstr "Beklager, den e-mail-adresse er allerede i brug!"
+msgstr "Beklager, den e-mailadresse er allerede i brug!"
 
 #: wp-includes/ms-functions.php:533
 msgid "That username is currently reserved but may be available in a couple of days."
@@ -5329,116 +5329,116 @@ msgstr ""
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
 msgstr "<strong>FEJL</strong>: Ugyldigt brugernavn eller forkert adgangskode"
 
-#: wp-includes/pluggable.php:1401 wp-includes/pluggable.php:1530
+#: wp-includes/pluggable.php:1407 wp-includes/pluggable.php:1536
 msgid "Author : %1$s (IP: %2$s , %3$s)"
 msgstr "Forfatter: %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1402 wp-includes/pluggable.php:1531
+#: wp-includes/pluggable.php:1408 wp-includes/pluggable.php:1537
 msgid "E-mail : %s"
 msgstr "E-mail: %s"
 
-#: wp-includes/pluggable.php:1382 wp-includes/pluggable.php:1392
-#: wp-includes/pluggable.php:1403 wp-includes/pluggable.php:1517
-#: wp-includes/pluggable.php:1524 wp-includes/pluggable.php:1532
+#: wp-includes/pluggable.php:1388 wp-includes/pluggable.php:1398
+#: wp-includes/pluggable.php:1409 wp-includes/pluggable.php:1523
+#: wp-includes/pluggable.php:1530 wp-includes/pluggable.php:1538
 msgid "URL    : %s"
 msgstr "URL    : %s"
 
-#: wp-includes/pluggable.php:1405 wp-includes/pluggable.php:1534
+#: wp-includes/pluggable.php:1411 wp-includes/pluggable.php:1540
 msgid "Comment: "
 msgstr "Kommentar:"
 
-#: wp-includes/pluggable.php:1406
+#: wp-includes/pluggable.php:1412
 msgid "You can see all comments on this post here: "
 msgstr "Du kan se alle kommentarer til dette indlæg her:"
 
-#: wp-includes/pluggable.php:1408
+#: wp-includes/pluggable.php:1414
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Kommentar: \"%2$s\""
 
-#: wp-includes/pluggable.php:1381 wp-includes/pluggable.php:1391
+#: wp-includes/pluggable.php:1387 wp-includes/pluggable.php:1397
 msgid "Website: %1$s (IP: %2$s , %3$s)"
 msgstr "Websted: %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1383 wp-includes/pluggable.php:1393
+#: wp-includes/pluggable.php:1389 wp-includes/pluggable.php:1399
 msgid "Excerpt: "
 msgstr "Uddrag: "
 
-#: wp-includes/pluggable.php:1384
+#: wp-includes/pluggable.php:1390
 msgid "You can see all trackbacks on this post here: "
 msgstr "Du kan se alle trackbacks til dette indlæg her: "
 
-#: wp-includes/pluggable.php:1386
+#: wp-includes/pluggable.php:1392
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Trackback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1394
+#: wp-includes/pluggable.php:1400
 msgid "You can see all pingbacks on this post here: "
 msgstr "Du kan se alle pingbacks til dette indlæg her: "
 
-#: wp-includes/pluggable.php:1396
+#: wp-includes/pluggable.php:1402
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Pingback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1416 wp-includes/pluggable.php:1540
+#: wp-includes/pluggable.php:1422 wp-includes/pluggable.php:1546
 msgid "Trash it: %s"
 msgstr "Smid i papirkurv: %s"
 
-#: wp-includes/pluggable.php:1418 wp-includes/pluggable.php:1542
+#: wp-includes/pluggable.php:1424 wp-includes/pluggable.php:1548
 msgid "Delete it: %s"
 msgstr "Slet den: %s"
 
-#: wp-includes/pluggable.php:1419 wp-includes/pluggable.php:1543
+#: wp-includes/pluggable.php:1425 wp-includes/pluggable.php:1549
 msgid "Spam it: %s"
 msgstr "Spam den: %s"
 
-#: wp-includes/pluggable.php:1516 wp-includes/pluggable.php:1523
+#: wp-includes/pluggable.php:1522 wp-includes/pluggable.php:1529
 msgid "Website : %1$s (IP: %2$s , %3$s)"
 msgstr "Websted: %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1518
+#: wp-includes/pluggable.php:1524
 msgid "Trackback excerpt: "
 msgstr "Trackback uddrag:"
 
-#: wp-includes/pluggable.php:1525
+#: wp-includes/pluggable.php:1531
 msgid "Pingback excerpt: "
 msgstr "Pingback uddrag:"
 
-#: wp-includes/pluggable.php:1538
+#: wp-includes/pluggable.php:1544
 msgid "Approve it: %s"
 msgstr "Godkend den: %s"
 
-#: wp-includes/pluggable.php:1545
+#: wp-includes/pluggable.php:1551
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Der er i øjeblikket %s kommentar, der venter på godkendelse. Gå til bedømmelsessiden:"
 msgstr[1] "Der er i øjeblikket %s kommentarer, der venter på godkendelse. Gå til bedømmelsessiden:"
 
-#: wp-includes/pluggable.php:1549
+#: wp-includes/pluggable.php:1555
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Bedøm venligst: \"%2$s\""
 
-#: wp-includes/pluggable.php:1612
+#: wp-includes/pluggable.php:1618
 msgid "Password Lost and Changed for user: %s"
 msgstr "Adgangskode mistet og ændret for brugeren: %s"
 
-#: wp-includes/pluggable.php:1616
+#: wp-includes/pluggable.php:1622
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Adgangskode tabt/ændret"
 
-#: wp-includes/pluggable.php:1640 wp-includes/pluggable.php:1648
+#: wp-includes/pluggable.php:1646 wp-includes/pluggable.php:1654
 #: wp-login.php:362
 msgid "Username: %s"
 msgstr "Brugernavn: %s"
 
-#: wp-includes/pluggable.php:1643
+#: wp-includes/pluggable.php:1649
 msgid "[%s] New User Registration"
 msgstr "[%s] Ny brugerregistrering"
 
-#: wp-includes/pluggable.php:1649
+#: wp-includes/pluggable.php:1655
 msgid "Password: %s"
 msgstr "Adgangskode: %s"
 
-#: wp-includes/pluggable.php:1652
+#: wp-includes/pluggable.php:1658
 msgid "[%s] Your username and password"
 msgstr "[%s] Dit brugernavn og din adgangskode"
 
@@ -5832,11 +5832,11 @@ msgstr "K&#248;res af WordPress"
 
 #: wp-login.php:276
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
-msgstr "<strong>FEJL</strong>: Skriv et brugernavn eller e-mail-adresse"
+msgstr "<strong>FEJL</strong>: Skriv et brugernavn eller e-mailadresse"
 
 #: wp-login.php:280
 msgid "<strong>ERROR</strong>: There is no user registered with that email address."
-msgstr "<strong>FEJL</strong>: Der er ingen bruger registreret med den e-mail-adresse"
+msgstr "<strong>FEJL</strong>: Der er ingen bruger registreret med den e-mailadresse"
 
 #: wp-login.php:297
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
@@ -5862,11 +5862,11 @@ msgstr "Ugyldig tast"
 
 #: wp-includes/user.php:2134
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
-msgstr "<strong>FEJL</strong>: Skriv venligst din e-mail-adresse."
+msgstr "<strong>FEJL</strong>: Skriv venligst din e-mailadresse."
 
 #: wp-includes/user.php:2136
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
-msgstr "<strong>FEJL</strong>: E-mail-adressen er ikke korrekt."
+msgstr "<strong>FEJL</strong>: E-mailadressen er ikke korrekt."
 
 #: wp-login.php:500
 msgid "Sorry, that key does not appear to be valid."
@@ -5902,7 +5902,7 @@ msgstr "Registrer på dette websted"
 
 #: wp-login.php:722
 msgid "A password will be e-mailed to you."
-msgstr "En adgangskode vil blive sendt til din e-mail-adresse."
+msgstr "En adgangskode vil blive sendt til din e-mailadresse."
 
 #: wp-login.php:730 wp-login.php:907
 msgid "Password Lost and Found"
@@ -5970,7 +5970,7 @@ msgstr "(Skal være mindst 4 tegn og kun bogstaver og tal.)"
 
 #: wp-signup.php:187
 msgid "Email&nbsp;Address:"
-msgstr "E-mail-adresse:"
+msgstr "E-mailadresse:"
 
 #: wp-signup.php:263
 msgid "There was a problem, please correct the form below and try again."
@@ -6030,7 +6030,7 @@ msgstr "<strong>FEJL</strong>: Skriv venligst et brugernavn."
 
 #: wp-includes/user.php:2139
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
-msgstr "<strong>FEJL</strong>: E-mail-adressen er allerede registreret, v&#230;lg venligst en anden."
+msgstr "<strong>FEJL</strong>: E-mailadressen er allerede registreret, v&#230;lg venligst en anden."
 
 #: wp-includes/widgets.php:67
 msgid "There are no options for this widget."
@@ -6740,7 +6740,7 @@ msgstr "Links"
 msgid "Uncategorized"
 msgstr "Ikke kategoriseret"
 
-#: wp-includes/pluggable.php:1641
+#: wp-includes/pluggable.php:1647
 msgid "E-mail: %s"
 msgstr "E-mail: %s"
 

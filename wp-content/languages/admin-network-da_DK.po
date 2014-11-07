@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-04-17 23:40:03+0000\n"
+"PO-Revision-Date: 2014-09-15 12:11:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +36,7 @@ msgstr "Overfør eller slet indhold før brugeren slettes."
 
 #: wp-admin/network/settings.php:104
 msgid "This email address will receive notifications. Registration and support emails will also come from this address."
-msgstr "Denne e-mail-adresse vil modtage notifikationer. Registreringer og support e-mails vil blive afsendt fra denne adresse."
+msgstr "Denne e-mailadresse vil modtage notifikationer. Registreringer og support e-mails vil blive afsendt fra denne adresse."
 
 #: wp-admin/network/users.php:233
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
@@ -52,7 +52,7 @@ msgstr "For at tilføje er nyt websted, <strong>klik Opret nyt websted</strong>.
 
 #: wp-admin/network/index.php:42
 msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
-msgstr "For at søge efter en bruger, <strong>skriv en e-mail-adresse eller et brugernavn</strong>. Trunker søgningen for at søge på et delvist brugernavn, såsom bruger&#42;."
+msgstr "For at søge efter en bruger, <strong>skriv en e-mailadresse eller et brugernavn</strong>. Trunker søgningen for at søge på et delvist brugernavn, såsom bruger&#42;."
 
 #: wp-admin/network/index.php:43
 msgid "To search for a site, <strong>enter the path or domain</strong>."
@@ -490,7 +490,7 @@ msgstr "Hvad vil du kalde dit netværk?"
 
 #: wp-admin/network.php:307
 msgid "Your email address."
-msgstr "Din e-mail-adresse."
+msgstr "Din e-mailadresse."
 
 #: wp-admin/network.php:354
 msgid "The original configuration steps are shown here for reference."
@@ -721,7 +721,7 @@ msgstr "Du kan også gå til brugerens profilside ved at klikke på brugernavnet
 
 #: wp-admin/network/users.php:236
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
-msgstr "Med massehandling kan du permanent slette udvalgte brugere eller tilføje/fjerne markeringen ved dem, der udvalgt som spam. Spam-brugeres indlæg vil blive slettet, og de vil ikke kunne tilmelde sig igen med samme e-mail-adresse."
+msgstr "Med massehandling kan du permanent slette udvalgte brugere eller tilføje/fjerne markeringen ved dem, der udvalgt som spam. Spam-brugeres indlæg vil blive slettet, og de vil ikke kunne tilmelde sig igen med samme e-mailadresse."
 
 #: wp-admin/network/settings.php:30
 msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
@@ -869,7 +869,7 @@ msgstr "Webstedet er blevet arkiveret."
 
 #: wp-admin/network/site-new.php:60
 msgid "Invalid email address."
-msgstr "Ugyldig e-mail-adresse."
+msgstr "Ugyldig e-mailadresse."
 
 #: wp-admin/network/site-new.php:76
 msgid "There was an error creating the user."
@@ -958,7 +958,7 @@ msgstr "Manglende eller ugyldig webstedsadresse."
 
 #: wp-admin/network/site-new.php:58
 msgid "Missing email address."
-msgstr "Manglende e-mail-adresse."
+msgstr "Manglende e-mailadresse."
 
 #: wp-admin/network/settings.php:100 wp-admin/network.php:303
 msgid "Network Admin Email"
@@ -1009,7 +1009,7 @@ msgstr "Kan ikke oprette en tom bruger."
 
 #: wp-admin/network/site-users.php:233
 msgid "Duplicated username or email address."
-msgstr "Gentaget brugernavn eller e-mail-adresse."
+msgstr "Gentaget brugernavn eller e-mailadresse."
 
 #: wp-admin/network/settings.php:112
 msgid "Allow new registrations"
@@ -1029,11 +1029,11 @@ msgstr "Blokerede navne"
 
 #: wp-admin/network/settings.php:160
 msgid "Limited Email Registrations"
-msgstr "Begrænsning i oprettelser i forhold til e-mail-adresser"
+msgstr "Begrænsning i oprettelser i forhold til e-mailadresser"
 
 #: wp-admin/network/settings.php:173
 msgid "Banned Email Domains"
-msgstr "Blokerede e-mail-domæner"
+msgstr "Blokerede e-maildomæner"
 
 #: wp-admin/network/settings.php:188
 msgid "Welcome Email"
@@ -1085,12 +1085,12 @@ msgstr "Administrator e-mail"
 
 #: wp-admin/network/site-new.php:146
 msgid "A new user will be created if the above email address is not in the database."
-msgstr "En ny bruger vil blive oprettet hvis ovennævnte e-mail-adresse ikke findes i databasen."
+msgstr "En ny bruger vil blive oprettet hvis ovennævnte e-mailadresse ikke findes i databasen."
 
 #: wp-admin/network/site-new.php:146
 msgid "The username and password will be mailed to this email address."
-msgstr "Dit brugernavn og kodeord vil blive sendt til denne e-mail-adresse."
+msgstr "Dit brugernavn og kodeord vil blive sendt til denne e-mailadresse."
 
 #: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
 msgid "Username and password will be mailed to the above email address."
-msgstr "Brugernavn og kodeord vil blive sendt til ovenstående e-mail-adresse."
+msgstr "Brugernavn og kodeord vil blive sendt til ovenstående e-mailadresse."

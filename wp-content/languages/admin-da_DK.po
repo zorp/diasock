@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-09-04 08:28:30+0000\n"
+"PO-Revision-Date: 2014-10-22 11:59:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -406,7 +406,7 @@ msgstr "Alle kommentartyper"
 
 #: wp-admin/includes/dashboard.php:724
 msgid "<span>%1$s, %2$s</span> %3$s"
-msgstr "<span>%1$2, %2$2</span> %3$2"
+msgstr "<span>%1$s, %2$s</span> %3$s"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:44
 #: wp-admin/theme-install.php:140
@@ -1165,19 +1165,19 @@ msgid ""
 msgstr ""
 "Kære bruger \n"
 "\n"
-"Du har for nylig anmodet om at få administrator e-mail-adressen på \n"
+"Du har for nylig anmodet om at få administrator e-mailadressen på \n"
 "dit websted ændret. \n"
 "Hvis dette er korrekt, skal du klikke på følgende link for at ændre det: \n"
-"###ADMIN_URL### \n"
+"# # # ADMIN_URL # # # \n"
 "\n"
 "Du kan roligt ignorere og slette denne e-mail, hvis du ikke ønsker at \n"
 "foretage denne handling. \n"
 "\n"
-"Denne e-mail er blevet sendt til ###EMAIL### \n"
+"Denne e-mail er blevet sendt til # # # EMAIL # # # \n"
 "\n"
 "Hilsen, \n"
-"Alle på ###SITENAME### \n"
-"###SITEURL###"
+"Alle på # # # SITENAME # # # \n"
+"# # # SITEURL # # #"
 
 #: wp-admin/includes/class-wp-filesystem-base.php:298
 msgid "Looking for %1$s in %2$s"
@@ -1233,11 +1233,11 @@ msgstr "Dine kodeord stemmer ikke overens. Prøv venligst igen."
 
 #: wp-admin/install.php:259
 msgid "You must provide an email address."
-msgstr "Du skal angive en e-mail-adresse."
+msgstr "Du skal angive en e-mailadresse."
 
 #: wp-admin/install.php:263
 msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
-msgstr "Beklager, men dette er ikke en gyldig e-mail-adresse. E-mail-adresser skal ligne <code>brugernavn@eksempel.dk</code>."
+msgstr "Beklager, men dette er ikke en gyldig e-mailadresse. E-mailadresser ligne <code>brugernavn@eksempel.dk</code>."
 
 #: wp-admin/nav-menus.php:491
 msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Custom Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
@@ -2044,7 +2044,7 @@ msgstr "Vælg venligst en mulighed."
 
 #: wp-admin/includes/ms.php:282
 msgid "<strong>ERROR</strong>: The email address is already used."
-msgstr "<strong>FEJL</strong>: Denne e-mail-adresse er allerede i brug."
+msgstr "<strong>FEJL</strong>: Denne e-mailadresse er allerede i brug."
 
 #: wp-admin/includes/image-edit.php:224 wp-admin/includes/image-edit.php:289
 #: wp-admin/includes/image-edit.php:408
@@ -2907,7 +2907,7 @@ msgid ""
 msgstr ""
 "Kære bruger,\n"
 "\n"
-"Du har for nyligt bedt om at få e-mail-adressen på din konto ændret.\n"
+"Du har for nyligt bedt om at få e-mailadressen på din konto ændret.\n"
 "Hvis dette er korrekt, så klik på dette link for at ændre den:\n"
 "###ADMIN_URL###\n"
 "\n"
@@ -3273,7 +3273,7 @@ msgstr "Du bruger en udviklingsversion af WordPress. Du kan opdatere til den sen
 
 #: wp-admin/options-writing.php:36
 msgid "Post via email settings allow you to send your WordPress install an email with the content of your post. You must set up a secret e-mail account with POP3 access to use this, and any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret."
-msgstr "Indstillingerne for Indlæg via e-mail giver dig mulighed for at sende en e-mail til dit WordPress websted med indholdet af dit indlæg. Du skal oprette en hemmelig e-mail-konto med POP3-adgang for at bruge denne funktion, og enhver e-mail der modtages på denne adresse vil blive offentliggjort, så er det en god idé at holde denne adresse meget hemmelig."
+msgstr "Indstillingerne for Indlæg via e-mail giver dig mulighed for at sende en e-mail til dit WordPress websted med indholdet af dit indlæg. Du skal oprette en hemmelig e-mailkonto med POP3-adgang for at bruge denne funktion, og enhver e-mail der modtages på denne adresse vil blive offentliggjort, så er det en god idé at holde denne adresse meget hemmelig."
 
 #: wp-admin/includes/image-edit.php:192
 msgid "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to return to the Image Editor."
@@ -3314,7 +3314,7 @@ msgstr "WordPress kan også forsøge at optimere databasen. Det forbedrer hastig
 
 #: wp-admin/user-new.php:279
 msgid "Enter the email address or username of an existing user on this network to invite them to this site. That person will be sent an email asking them to confirm the invite."
-msgstr "Skriv e-mail-adressen eller brugernavnet på en eksisterende bruger på netværket for at invitere dem til dette websted. Vedkommende vil få tilsendt en e-mail, hvor de bliver bedt om at bekræfte invitationen."
+msgstr "Skriv e-mailadressen eller brugernavnet på en eksisterende bruger på netværket for at invitere dem til dette websted. Vedkommende vil få tilsendt en e-mail, hvor de bliver bedt om at bekræfte invitationen."
 
 #: wp-admin/options-discussion.php:173
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites. Here you can enable the display of avatars for people who comment on your site."
@@ -3326,7 +3326,7 @@ msgstr "<strong>Advarsel:</strong> At lave ændringer i aktive plugins kan ikke 
 
 #: wp-admin/user-new.php:275
 msgid "Enter the email address of an existing user on this network to invite them to this site. That person will be sent an email asking them to confirm the invite."
-msgstr "Skriv e-mail-adressen eller brugernavnet på en eksisterende bruger på netværket for at invitere dem til dette websted. Vedkommende vil få tilsendt en e-mail, hvor de bliver bedt om at bekræfte invitationen. "
+msgstr "Skriv e-mailadressen eller brugernavnet på en eksisterende bruger på netværket for at invitere dem til dette websted. Vedkommende vil få tilsendt en e-mail, hvor de bliver bedt om at bekræfte invitationen. "
 
 #: wp-admin/credits.php:179
 msgid "Contributing Developers"
@@ -3599,7 +3599,7 @@ msgstr "Du kan administrere kommentarer på din side på samme måde som du admi
 
 #: wp-admin/edit-comments.php:125
 msgid "In the <strong>Author</strong> column, in addition to the author&#8217;s name, email address, and blog URL, the commenter&#8217;s IP address is shown. Clicking on this link will show you all the comments made from this IP address."
-msgstr "I <strong>Forfatter</strong>-kolonnen vises, udover forfatterens navn, e-mail-adresse og blog-URL, kommentarskriverens IP-adresse. Hvis du klikker på dette link, kan du se alle kommentarer sendt fra denne IP-adresse."
+msgstr "I <strong>Forfatter</strong>-kolonnen vises, udover forfatterens navn, e-mailadresse og blog-URL, kommentarskriverens IP-adresse. Hvis du klikker på dette link, kan du se alle kommentarer sendt fra denne IP-adresse."
 
 #: wp-admin/index.php:46
 msgid "Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information."
@@ -3687,7 +3687,7 @@ msgstr "Du kan se alle indlæg, der er lavet af en bruger, ved at klikke på num
 
 #: wp-admin/user-new.php:154
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
-msgstr "Da dette er en Multisite-installation, kan du tilføje konti, der allerede findes på netværket, ved at angive et brugernavn eller e-mail-adresse, og tildele brugeren en rolle. For at få flere muligheder, såsom at angive en adgangskode, skal du være en netværksadministrator og føre markøren over linket til en eksisterende brugers navn. Derefter kan du gå til Rediger brugerprofil under Netværkadministrator > Alle brugere."
+msgstr "Da dette er en Multisite-installation, kan du tilføje konti, der allerede findes på netværket, ved at angive et brugernavn eller e-mailadresse, og tildele brugeren en rolle. For at få flere muligheder, såsom at angive en adgangskode, skal du være en netværksadministrator og føre markøren over linket til en eksisterende brugers navn. Derefter kan du gå til Rediger brugerprofil under Netværkadministrator > Alle brugere."
 
 #: wp-admin/includes/template.php:2075
 msgid "Likely direct inclusion of wp-admin/includes/template.php in order to use add_meta_box(). This is very wrong. Hook the add_meta_box() call into the add_meta_boxes action instead."
@@ -3707,7 +3707,7 @@ msgstr "Tilbage til Kontrolpanel &rarr; Opdateringer"
 
 #: wp-admin/credits.php:112
 msgid "WordPress is created by a worldwide team of passionate individuals."
-msgstr "WordPress er skabt af en verdensomspændende team af passionerede personer."
+msgstr "WordPress er skabt af et verdensomspændende team af passionerede personer."
 
 #: wp-admin/credits.php:176
 msgid "Core Developers"
@@ -4150,7 +4150,7 @@ msgstr "Denne import-funktion er ikke installeret. Installer venligst import-fun
 
 #: wp-admin/options-general.php:113 wp-admin/options-general.php:132
 msgid "E-mail Address"
-msgstr "E-mail-adresse"
+msgstr "E-mailadresse"
 
 #: wp-admin/options-general.php:314
 msgid "Site Language"
@@ -6240,7 +6240,7 @@ msgstr "Netværket findes allerede."
 
 #: wp-admin/includes/schema.php:876
 msgid "You must provide a valid e-mail address."
-msgstr "Du skal skrive en gyldig e-mail-adresse."
+msgstr "Du skal skrive en gyldig e-mailadresse."
 
 #: wp-admin/includes/schema.php:1028
 msgid "This resulted in an error message: %s"
@@ -6708,7 +6708,7 @@ msgstr "<strong>FEJL</strong>: Skriv venligst det samme kodeord i de to kodeords
 
 #: wp-admin/includes/user.php:154
 msgid "<strong>ERROR</strong>: Please enter an e-mail address."
-msgstr "<strong>FEJL</strong>: Skriv venligst en e-mail-adresse"
+msgstr "<strong>FEJL</strong>: Skriv venligst en e-mailadresse"
 
 #: wp-admin/includes/deprecated.php:557
 msgid "No matching users were found!"
@@ -6732,7 +6732,7 @@ msgstr "Din e-mail"
 
 #: wp-admin/install.php:143
 msgid "Double-check your email address before continuing."
-msgstr "Double-check din e-mail-adresse f&#248;r vi g&#229;r videre."
+msgstr "Double-check din e-mailadresse f&#248;r vi g&#229;r videre."
 
 #: wp-admin/install.php:150
 msgid "Install WordPress"
@@ -7079,7 +7079,7 @@ msgstr "Standardavatar"
 
 #: wp-admin/options-discussion.php:214
 msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
-msgstr "Du kan enten vise et generisk logo eller et bestemt et ud fra brugerens e-mail-adresse, n&#229;r de ikke har deres egen avatar."
+msgstr "Du kan enten vise et generisk logo eller et bestemt et ud fra brugerens e-mailadresse, n&#229;r de ikke har deres egen avatar."
 
 #: wp-admin/options-discussion.php:218
 msgid "Mystery Man"
@@ -7116,7 +7116,7 @@ msgstr "d.m.Y H:i"
 
 #: wp-admin/options-general.php:115
 msgid "This address is used for admin purposes, like new user notification."
-msgstr "Denne e-mail-adresse anvendes til administrative form&#229;l som notifikation om nye brugere."
+msgstr "Denne e-mailadresse anvendes til administrative form&#229;l som notifikation om nye brugere."
 
 #: wp-admin/options-general.php:118 wp-admin/options-general.php:119
 msgid "Membership"
@@ -7365,7 +7365,7 @@ msgstr "Indl&#230;g via e-mail"
 
 #: wp-admin/options-writing.php:131
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
-msgstr "For at skrive indl&#230;g til WordPress via e-mail skal du oprette en hemmelig e-mail-konto med POP3-adgang. Alle e-mails sendt til denne adresse vil blive udgivet, s&#229; det er en god id&#233;, at holde adressen hemmelig. Her er tre tilf&#230;dige tekststrenge, du kan bruge: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
+msgstr "For at skrive indl&#230;g til WordPress via e-mail skal du oprette en hemmelig e-mailkonto med POP3-adgang. Alle e-mails sendt til denne adresse vil blive udgivet, s&#229; det er en god id&#233;, at holde adressen hemmelig. Her er tre tilf&#230;dige tekststrenge, du kan bruge: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 
 #: wp-admin/options-writing.php:135
 msgid "Mail Server"
@@ -7988,7 +7988,7 @@ msgstr "Send denne adgangskode til den nye bruger via e-mail."
 
 #: wp-admin/user-new.php:309 wp-admin/user-new.php:422
 msgid "Skip Confirmation Email"
-msgstr "Spring over e-mail-bekræftelse"
+msgstr "Spring over e-mailbekræftelse"
 
 #: wp-admin/users.php:104 wp-admin/users.php:121
 msgid "You can&#8217;t edit that user."
