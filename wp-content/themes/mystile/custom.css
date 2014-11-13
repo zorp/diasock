@@ -14,6 +14,13 @@ GLOBAL STYLES
 ----------------
 Add styles beneath this line that you want to be applied across your entire site */
 
+dl dd {
+  margin-bottom: 0em;
+}
+
+dl dd p {
+  margin-bottom: 0em;
+}
 
 /* 
 DESKTOP STYLES
@@ -21,12 +28,17 @@ DESKTOP STYLES
 Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
 
 @media only screen and (min-width: 768px) {
+  /* Desktop styles go here */
+  #header {
+    padding: 0.618em 0 0;
+    margin-bottom: 2.631em;
+    }
 
   .homepage-banner {
     max-width:75.998em;
+    margin-bottom: 2.631em;
   }
 
-	/* Desktop styles go here */
   .homepage-banner .description {
     top: 20%;
     left: 10%;
@@ -34,6 +46,10 @@ Add styles inside the media query below that you only want to be applied to the 
     line-height: 1.3em;
     font-size: 1.2em;
   }
+
+  .home #content.with-banner {
+    padding-top: 1.631em;
+    }
 }
 
 @media only screen and (min-width: 950px) {
