@@ -22,6 +22,11 @@ dl dd p {
   margin-bottom: 0em;
 }
 
+.card-icon {
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
 /* 
 DESKTOP STYLES
 -----------------
